@@ -20,4 +20,8 @@ from django.urls import path, include
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("api/cinema/", include("cinema.urls")),
+<<<<<<< HEAD
 ]
+=======
+]
+>>>>>>> 2cbd38e98bf9e3beb2278a50632a598be398814d
